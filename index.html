@@ -2,24 +2,32 @@
 <html>
     <head>
         <title>Google Homepage</title>
+        <link rel="stylesheet" type="text/css" href="index.css"></link>
     </head>
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"></br>
-        <input type="text" name="search"></br>
-        <button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button>
-        <p>Google offered in:</p>
-        <a href="index.html"> हिन्दी </a>
-        <a href="index.html"> বাংলা </a>
-        <a href="index.html"> తెలుగు </a>
-        <a href="index.html"> मराठी </a>
-        <a href="index.html"> தமிழ் </a>
-        <a href="index.html"> ગુજરાતી </a>
-        <a href="index.html"> ಕನ್ನಡ </a>
-        <a href="index.html"> മലയാളം </a>
-        <a href="index.html"> ਪੰਜਾਬੀ </a>
-        <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"> Gmail</a>
-        <a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl"> Images</a>
-
+    
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"></br>
+        <div id="searchbox"><input type="text" name="search"></br></div>
+        <ul id='click'>
+            <li><button id='searchbutton' type="submit">Google Search</button></li>
+            <li><button type="submit" id='luckybutton' >I'm Feeling Lucky</button></li>
+        </ul>
+        
+        <ul id='languages'>
+            <li>Google offered in:</li>
+            <li><a href="index.html"> हिन्दी </a></li>
+            <li><a href="index.html"> বাংলা </a></li>
+            <li><a href="index.html"> తెలుగు </a></li>
+            <li><a href="index.html"> मराठी </a></li>
+            <li><a href="index.html"> தமிழ் </a></li>
+            <li><a href="index.html"> ગુજરાતી </a></li>
+            <li><a href="index.html"> ಕನ್ನಡ </a></li>
+            <li><a href="index.html"> മലയാളം </a></li>
+            <li><a href="index.html"> ਪੰਜਾਬੀ </a></li>
+        </ul>
+        <ul id="links">
+            <li><a href="https://mail.google.com/mail/u/0/?ogbl#inbox"> Gmail</a></li>
+            <li><a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl"> Images</a></li>
+        </ul>
     </body>
 </html>
