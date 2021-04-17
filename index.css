@@ -1,5 +1,5 @@
 #logo{
-    padding-left: 50%;
+    padding-left: 60%;
 }
 #searchbox{
     padding-left: 50%;
@@ -7,21 +7,24 @@
 #languages{
     list-style-type: none;
     padding-left: 50%;
-    font-size: 10px;
+    font-size: 15px;
 }
 #click li{
     list-style-type: none;
-    display: inline;
+    display: inline-block;
+    padding: 10px;
 }
 #click{
-    padding-left: 50%;
+    padding-left: 60%;
 }
 #languages li{
-    display: inline;
-    padding: 5px;
+    display: inline-flex;
+    padding: 3px;
 }
 #links{
     list-style-type: none;
+    position: relative;
+    left: 85%;
 }
 #links li {
     display: inline;
@@ -41,8 +44,66 @@
 #links li a:hover{
     text-decoration: underline;
 }
-#searchbutton,#luckybutton{
+#searchbutton{
     border: none;
     background-color: rgba(214, 203, 203, 0.781), 0.753);
+    font-size: 15px;
+    height: 40px;
+    width: 130px;
+    border-radius: 4px;
 
 }
+#luckybutton{
+    border: none;
+    background-color: rgba(214, 203, 203, 0.781), 0.753);
+    font-size: 15px;
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+
+}
+#searchbutton:hover{
+    border: 2px solid #d4d8d4;
+}
+#luckybutton:hover{
+    border: 2px solid #d4d8d4;
+}
+#searchbox{
+    left: 10px;
+}
+.middle{
+    padding: 10px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(226, 218, 218, 0.774);
+    color: rgba(255, 255, 255, 0);
+    text-align: left;
+  }
+  .footer li{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .footer li a{
+    text-decoration: none;
+    color: black;
+  }
+  .footer li a:hover{
+    text-decoration: underline;
+  }
+  .box{
+      background-color: rgb(18, 98, 247);
+      width: 100px;
+  }
+  .box a{
+      color: rgb(255, 255, 255);
+  }
