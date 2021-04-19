@@ -1,81 +1,99 @@
-#logo{
-    padding-left: 60%;
+body{
+    margin: 0;
+    padding: 0;
+}
+.middle{
+    position: absolute;
+    left: 40%;
+    top: 40%;
 }
 #searchbox{
-    padding-left: 50%;
+    position: relative;
+    left: -100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: none;
 }
-#languages{
-    list-style-type: none;
-    padding-left: 50%;
-    font-size: 15px;
+#searchbox:hover{
+    cursor: context-menu;
+
+}
+input[type="text"]{
+    position: absolute;
+    width: 550px;
+    height: 40px;
+    font-size: 20px;
+    height: 1;
+    text-align:initial;
+    border-radius: 25px;
+    color: rgba(0, 0, 0, 0.884);
+    border: 1px solid rgb(214, 203, 203);
+    display: block;
+    outline: none;
+}
+input[type="text"]:hover{
+    box-shadow: 5px 5px 5px rgb(240, 231, 231);
+}
+.material-icons{
+    position: relative;
+    left: -85px;
+    top: -18px;
+}
+#mic{
+    position: relative;
+    left: 65%;
 }
 #click li{
-    list-style-type: none;
+    position: relative;
+    top: -10%;
     display: inline-block;
-    padding: 10px;
+    padding-right: 10px;
 }
-#click{
-    padding-left: 60%;
+#s-button:hover{
+    border: 2.5px solid #d4d8d4;
+    box-shadow: 1px 1px 1px rgb(214, 203, 203);
 }
-#languages li{
+#l-button:hover{
+    border: 2.5px solid #d4d8d4;
+    box-shadow: 1px 1px 1px rgb(214, 203, 203);
+}
+#s-button{
+    position: relative;
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    color: rgba(0, 0, 0, 0.719);
+}
+#l-button{
+    position: relative;
+    width: 150px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.719);
+}
+.languages{
+    position: relative;
+    left: -100px;
+    padding-top: 0px;
+}
+.languages li{
+    position: relative;
     display: inline-flex;
     padding: 3px;
 }
-#links{
-    list-style-type: none;
-    position: relative;
-    left: 85%;
-}
-#links li {
-    display: inline;
-    padding: 5px;
+li a{
     text-decoration: none;
-}
-#links li a{
-    text-decoration: none;
-    color: black;
-}
-#languages li a{
-    text-decoration: none;
-}
-#languages li a:hover{
-    text-decoration: underline;
-}
-#links li a:hover{
-    text-decoration: underline;
-}
-#searchbutton{
-    border: none;
-    background-color: rgba(214, 203, 203, 0.781), 0.753);
     font-size: 15px;
-    height: 40px;
-    width: 130px;
-    border-radius: 4px;
-
+    color: rgb(17, 46, 134);
 }
-#luckybutton{
-    border: none;
-    background-color: rgba(214, 203, 203, 0.781), 0.753);
-    font-size: 15px;
-    height: 40px;
-    width: 160px;
-    border-radius: 4px;
-
-}
-#searchbutton:hover{
-    border: 2px solid #d4d8d4;
-}
-#luckybutton:hover{
-    border: 2px solid #d4d8d4;
-}
-#searchbox{
-    left: 10px;
-}
-.middle{
-    padding: 10px;
-    position: absolute;
-    left: 10%;
-    top: 30%;
+li a:hover{
+    text-decoration: underline;
 }
 .footer {
     position: fixed;
@@ -83,27 +101,58 @@
     bottom: 0;
     height: 50px;
     width: 100%;
+    font-size: 20px;
     background-color: rgba(226, 218, 218, 0.774);
-    color: rgba(255, 255, 255, 0);
+    
+  }
+  .lefts li{
+    position: relative;
+    display: inline;
+    padding: 10px;
+    bottom: 10px;
     text-align: left;
   }
-  .footer li{
-    list-style-type: none;
-    display: inline;
-    font-size: 20px;
-    padding: 20px;
+  .rights{
+      position: relative;
+      left: 85%;
+      bottom: 10px;
   }
+  .rights li{
+    position: relative;
+    display: inline-flex;  
+    bottom: 25px;
+    text-align: right;
+  }
+
   .footer li a{
     text-decoration: none;
-    color: black;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.719);
   }
   .footer li a:hover{
     text-decoration: underline;
   }
+  .links{
+      position: absolute;
+      top: 0;
+      left: 85%;
+  }
+  .links li{
+      display: inline;
+      padding-right: 20px;
+  }
+  .links li a{
+      font-size: 15px;
+      color:rgba(0, 0, 0, 0.719);
+  }
   .box{
-      background-color: rgb(18, 98, 247);
-      width: 100px;
-  }
-  .box a{
-      color: rgb(255, 255, 255);
-  }
+      position: relative;
+      outline: none;
+      background-color: #4285f4;
+      padding-left: 7px;
+    
+}
+.box li a{
+    color: #fff;
+    text-align: center;
+}
