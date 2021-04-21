@@ -135,9 +135,10 @@ li a:hover{
   .links{
       position: absolute;
       top: 0;
-      left: 85%;
+      left: 80%;
   }
   .links li{
+      position: relative;
       display: inline;
       padding-right: 20px;
   }
@@ -159,4 +160,7 @@ li a:hover{
 input{
     padding-left: 50px;
     padding-right: 40px;
+}
+#apps:hover{
+    cursor: pointer;
 }
