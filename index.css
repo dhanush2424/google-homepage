@@ -161,6 +161,11 @@ input{
     padding-left: 50px;
     padding-right: 40px;
 }
+#apps{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
 #apps:hover{
     cursor: pointer;
 }
