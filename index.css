@@ -41,7 +41,7 @@ input[type="text"]:hover{
 }
 #mic{
     position: relative;
-    left: 65%;
+    left: 82%;
 }
 #click li{
     position: relative;
@@ -145,14 +145,18 @@ li a:hover{
       font-size: 15px;
       color:rgba(0, 0, 0, 0.719);
   }
-  .box{
-      position: relative;
-      outline: none;
-      background-color: #4285f4;
-      padding-left: 7px;
-    
-}
-.box li a{
+#signin{
+    padding: 7px 12px;
+    background-color: #4285f4;
+    font-weight: bold;
     color: #fff;
-    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#signin:hover{
+    cursor: pointer;
+}
+input{
+    padding-left: 50px;
+    padding-right: 40px;
 }
