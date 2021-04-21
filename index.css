@@ -9,7 +9,7 @@ body{
 }
 #searchbox{
     position: relative;
-    left: -100px;
+    left: -140px;
     padding-top: 20px;
     padding-bottom: 10px;
     border: none;
@@ -21,7 +21,7 @@ body{
 input[type="text"]{
     position: absolute;
     width: 550px;
-    height: 40px;
+    height: 50px;
     font-size: 20px;
     height: 1;
     text-align:initial;
@@ -36,12 +36,16 @@ input[type="text"]:hover{
 }
 .material-icons{
     position: relative;
-    left: -85px;
-    top: -18px;
+    left: -124px;
+    top: -14px;
 }
 #mic{
     position: relative;
-    left: 82%;
+    left: 75%;
+}
+#click{
+    position: relative;
+    left: -50px;
 }
 #click li{
     position: relative;
@@ -79,7 +83,7 @@ input[type="text"]:hover{
 }
 .languages{
     position: relative;
-    left: -100px;
+    left: -140px;
     padding-top: 0px;
 }
 .languages li{
